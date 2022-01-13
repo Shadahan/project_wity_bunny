@@ -365,7 +365,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d777711b6c1f621408797b287bc442b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  acceleration: {x: 220, y: 220}
   sensitivity: {x: 220, y: -220}
+  maxVerticalAngleFromHorizon: 90
+  inputLagPeriod: 0.05
 --- !u!136 &1794443699
 CapsuleCollider:
   m_ObjectHideFlags: 0
